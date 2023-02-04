@@ -42,6 +42,7 @@ function newElement() {
     document.getElementById("myUL").appendChild(li);
     total++;
     counter.innerHTML = total;
+    pendingtag.innerHTML = total-done;
   }
   document.getElementById("myInput").value = "";
 }
